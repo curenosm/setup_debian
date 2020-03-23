@@ -1,7 +1,11 @@
 #!/usr/bin/bash 
 
-echo "Welcome, this is a script prepared to install \n"
-echo "several tools which you will use almost always. \n"
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+echo "Welcome, this is a script prepared to install"
+echo "several tools which you will use almost always."
+echo -e "${RED}Did you executed sudo start.sh ?${NC}"
 read -p "Do you want to start? [y/N]" answer
 
 apt-get update && apt-get upgrade
