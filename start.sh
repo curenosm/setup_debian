@@ -32,10 +32,6 @@ add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode
 apt update && apt install code
 
 
-################### Node & global packages #############
-
-
-
 ################## Global packages python3 ##############
 
 apt-get update && apt-get install python3-pip
