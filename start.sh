@@ -11,7 +11,7 @@ read -p "Do you want to start? [y/N]" answer
 apt-get update && apt-get upgrade
 apt-get install vim gnome_tweak_tool vscode \
 	software-properties-common apt-transport-https wget \
-	curl
+	curl git-flow
 
 #################### Numix circle #######################
 
