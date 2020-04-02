@@ -29,6 +29,12 @@ groupadd docker
 usermod -aG docker $USER
 newgrp docker
 
+###################### docker-compose ##################
+sudo curl -L https://github.com/docker/compose/releases/download/1.25.4/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+docker-compose --version
+
 #################### VSCode #############################
 
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
