@@ -1,4 +1,4 @@
-#!/usr/bin/bash 
+#!/bin/bash 
 
 RED='\033[0;31m'
 NC='\033[0m' # No Color
@@ -9,15 +9,14 @@ echo -e "${RED}Did you executed sudo start.sh ?${NC}"
 read -p "Do you want to start? [y/N]" answer
 
 apt-get update && apt-get upgrade
-apt-get install vim gnome_tweak_tool vscode \
-	software-properties-common apt-transport-https wget \
-	curl git-flow blueman
+apt install vim curl git-flow blueman wget \
+	software-properties-common apt-transport-https \
 
 #################### Numix circle #######################
 
 add-apt-repository ppa:numix/ppa
 apt-get update
-apt-get install numix-gtk-theme numix-icon-theme-circle
+apt install numix-gtk-theme numix-icon-theme-circle
 
 #################### Docker ############################
 
@@ -25,7 +24,7 @@ apt-get remove docker docker-engine docker.io
 apt install docker.io
 systemctl start docker
 systemctl enable docker
-groupadd docker
+# groupadd docker
 usermod -aG docker $USER
 newgrp docker
 
@@ -46,4 +45,4 @@ apt update && apt install code
 
 apt-get update && apt-get install python3-pip
 pip3 install virtualenv
-
+pip3 install pipenv
