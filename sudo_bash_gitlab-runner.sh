@@ -12,3 +12,6 @@ gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runn
 
 # Then start the runner
 gitlab-runner start
+
+
+echo "After this you must register your gitlab runner"
