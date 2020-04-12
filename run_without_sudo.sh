@@ -9,3 +9,8 @@ nvm alias default 12.16.1
 
 npm install -g create-react-app
 
+
+
+################ Kite for autocompletion #############
+
+bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
