@@ -8,7 +8,7 @@ nvm run 12.16.1
 nvm alias default 12.16.1
 
 npm install -g create-react-app
-
+npm install -g appcenter-cli
 
 
 ################ Kite for autocompletion #############
