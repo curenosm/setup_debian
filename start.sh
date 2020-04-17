@@ -52,3 +52,7 @@ flutter --version
 apt-get update && apt-get install python3-pip
 pip3 install virtualenv
 pip3 install pipenv
+
+######################## Ranger ########################
+apt-get update
+apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo
