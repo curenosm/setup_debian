@@ -42,11 +42,10 @@ add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode
 apt update && apt install code
 
 #################### Dart & Flutter #####################
-apt-get install xz-utils libglu1-mesa
+apt-get install xz-utils libglu1-mesa lib32stdc++6
 git clone https://github.com/flutter/flutter.git -b stable ~/flutter
 echo "export PATH='${PATH}:${HOME}/flutter/bin'" >> ~/.bashrc
 flutter --version
-
 
 ################# Global packages python3 ##############
 
