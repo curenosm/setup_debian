@@ -9,6 +9,7 @@ nvm alias default 12.16.1
 
 npm install -g create-react-app
 npm install -g appcenter-cli
+npm install -g @vue/cli
 
 
 ################ Kite for autocompletion #############
