@@ -1,0 +1,6 @@
+openjdk
+maven
+gradle
+intellij
+webstorm
+pycharm
