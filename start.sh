@@ -56,3 +56,12 @@ pip3 install pipenv
 ######################## Ranger ########################
 apt-get update
 apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo
+
+####################### Kotlin ########################################
+snap install --classic kotlin
+
+######################## Kubernetes & Minikube #######################
+snap install kubectl --classic
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+dpkg -i minikube_latest_amd64.deb
+
