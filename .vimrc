@@ -22,7 +22,7 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-surround'
 Plug 'w0rp/ale'
 Plug 'https://github.com/joshdick/onedark.vim.git'
-Plug 'navarasu/onedark.nvim'
+Plug 'udalov/kotlin-vim'
 
 call plug#end()
 " You can revert the settings after the call like so:
