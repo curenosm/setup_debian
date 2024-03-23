@@ -23,6 +23,7 @@ Plug 'tpope/vim-surround'
 Plug 'w0rp/ale'
 Plug 'https://github.com/joshdick/onedark.vim.git'
 Plug 'udalov/kotlin-vim'
+Plug 'kdheepak/JuliaFormatter.vim'
 
 call plug#end()
 " You can revert the settings after the call like so:
